@@ -51,7 +51,7 @@ public class DotComBust{
 	
 	private void finishGame(){
 		System.out.println("All DotComs are dead!");
-		if(numOfGuesses <= 10){
+		if(numOfGuesses <= 20){
 			System.out.println("It only took you "+numOfGuesses+" guesses.");
 			System.out.println("You got out before your options sank");
 		}
